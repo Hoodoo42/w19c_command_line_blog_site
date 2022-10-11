@@ -8,3 +8,9 @@ SELECT username , joined_on, password, client_id, title, content From client c I
 SELECT username, password FROM client c;
 
 INSERT INTO post (title, content) VALUES();
+
+
+CALL get_posts;
+
+
+CALL get_user_posts(5); 
